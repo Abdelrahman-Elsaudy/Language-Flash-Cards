@@ -26,6 +26,7 @@ data_dicts = data.to_dict(orient="records")      # To generate a list of diction
 
 chosen_word = data_dicts[random.randint(0, len(data_dicts)-1)]   # I used -1 because in randint both sides are included.
 
+
 # ----------------------------- BUTTONS SETUP -----------------------------#
 
 
